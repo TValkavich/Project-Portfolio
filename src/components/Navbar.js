@@ -1,39 +1,32 @@
 import React from 'react';
-import {Nav, Navbar} from 'react-bootstrap';
+import {Button, Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
 
-const Styles = styled.div`
-    .navbar {
-        background-color: #222;
+const NavStyles = styled.div`
+    .nav {
+        padding: .5%;
+        background-color: #F5F5F5;
     }
 
-    .navbar-brand, .navbar-nav .nav-link {
-        color: #FFFFFF;
-        
-
+    .navbar-item, .nav-link {
+        color: #525252;
     }
 
-    &:hover {
-        color: red;
+    .nav-link:hover {
+        color: #22e0f5;
     }
-
 
 `;
 
+
 export default function NavigationBar() {
     return (
-        <Styles>
-            <Navbar expand="lg">
-                <Navbar.Brand href="/">This is the Navbar</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-        </Styles>
+        <NavStyles>
+            <Nav className="justify-content-center">
+                <Button variant="outline-info" href="/" style={{margin: '5px' }}>Home</Button>
+                <Button variant="outline-info" href="/about" style={{margin: '5px' }}>About</Button>
+                <Button variant="outline-info" href="/contact" style={{margin: '5px' }}>Contact</Button>
+            </Nav>
+        </NavStyles>
     )
 }

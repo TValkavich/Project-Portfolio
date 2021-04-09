@@ -1,6 +1,9 @@
-import React from 'react'
-import Typewriter from 'typewriter-effect'
+import React from 'react';
+import * as ReactBootstrap from 'react-bootstrap';
+import Typewriter from 'typewriter-effect';
 import styled from 'styled-components';
+import AboutCard from './components/AboutCard';
+import ContactCard from './components/ContactCard';
 
 const TypewriterStyle = styled.div`
     color: #1ebdd6;
@@ -15,7 +18,7 @@ const WelcomeMessage = styled.div`
     color: #595959;
 `;
 
-export default function Home() {
+function Home() {
     return (
         <React.Fragment>
             <TypewriterStyle>
@@ -31,8 +34,11 @@ export default function Home() {
             <WelcomeMessage>
                 <p>Welcome to my corner of the internet.</p>
             </WelcomeMessage>
+            <AboutCard />
+            <ContactCard />
         </React.Fragment>
     )
 }
 
+export default Home;
 

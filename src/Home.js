@@ -2,6 +2,8 @@ import React from 'react';
 import * as ReactBootstrap from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 import styled from 'styled-components';
+import ExperienceCard from "./components/ExperienceCard";
+import PortfolioCard from "./components/PortfolioCard";
 import AboutCard from './components/AboutCard';
 import ContactCard from './components/ContactCard';
 
@@ -25,7 +27,7 @@ function Home() {
                 &gt;
                 <Typewriter
                     options={{
-                    strings: 'Tyler Valkavich.',
+                    strings: 'Tyler Valkavich',
                     autoStart: true,
                     loop: false,
                 }}
@@ -34,8 +36,10 @@ function Home() {
             <WelcomeMessage>
                 <p>Welcome to my corner of the internet.</p>
             </WelcomeMessage>
-            <AboutCard />
+            <ExperienceCard />
+            <PortfolioCard />
             <ContactCard />
+            <AboutCard />
         </React.Fragment>
     )
 }

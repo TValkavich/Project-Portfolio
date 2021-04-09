@@ -24,8 +24,10 @@ export default function NavigationBar() {
         <NavStyles>
             <Nav className="justify-content-center">
                 <Button variant="outline-info" href="/" style={{margin: '5px' }}>Home</Button>
-                <Button variant="outline-info" href="/about" style={{margin: '5px' }}>About</Button>
+                <Button variant="outline-info" href="/experience" style={{margin: "5px"}}>Experience</Button>
+                <Button variant="outline-info" href="/portfolio" style={{margin: "5px"}}>Portfolio</Button>
                 <Button variant="outline-info" href="/contact" style={{margin: '5px' }}>Contact</Button>
+                <Button variant="outline-info" href="/about" style={{margin: '5px' }}>About</Button>
             </Nav>
         </NavStyles>
     )

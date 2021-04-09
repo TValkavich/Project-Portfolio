@@ -1,13 +1,13 @@
 import React from 'react'
-import {Card} from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import styled from 'styled-components';
 
-const AboutCardStyle = styled.div`
+const ContactCardStyle = styled.div`
 
     .card {
         color: black;
         margin-top: 10%;
-        margin-bottom: 100px;
+        margin-bottom: 10%;
         padding: 10%;
         height: 60%;
         width: 60%;
@@ -22,8 +22,6 @@ const AboutCardStyle = styled.div`
 
     .card:hover {
         color: white;
-        text-decoration: none;
-        underline: false;
         background: #1ebdd6;
         width: 90%;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
@@ -31,27 +29,18 @@ const AboutCardStyle = styled.div`
             -1px -1px 30px rgba(0,0,0,0.2);
     }
 
-    a:hover {
-        text-decoration: none;
-      }
-
-    .span {
-        display: block;
-        float: right;
-        text-align: right;
-    }
-
 `;
 
-export default function AboutCard() {
+function PortfolioCard() {
     return (
-        <AboutCardStyle>
-            <a href="/about">
+        <ContactCardStyle>
+            <a href="/portfolio">
                 <Card>
-                    About
-                    {/*<span styles={{float: 'right'}}>About</span>*/}
+                    Portfolio
                 </Card>
             </a>
-        </AboutCardStyle>
+        </ContactCardStyle>            
     )
 }
+
+export default PortfolioCard;

@@ -2,12 +2,11 @@ import React from 'react'
 import {Card} from 'react-bootstrap';
 import styled from 'styled-components';
 
-const AboutCardStyle = styled.div`
+const ExperienceCardStyle = styled.div`
 
     .card {
         color: black;
-        margin-top: 10%;
-        margin-bottom: 100px;
+        margin-top: 15%;
         padding: 10%;
         height: 60%;
         width: 60%;
@@ -16,8 +15,6 @@ const AboutCardStyle = styled.div`
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
             5px 5px 15px rgba(0,0,0,0.1),
             -1px -1px 10px rgba(0,0,0,0.2);
-        float: right;
-        text-align: right;
     }
 
     .card:hover {
@@ -35,23 +32,18 @@ const AboutCardStyle = styled.div`
         text-decoration: none;
       }
 
-    .span {
-        display: block;
-        float: right;
-        text-align: right;
-    }
-
 `;
 
-export default function AboutCard() {
+function ExperienceCard() {
     return (
-        <AboutCardStyle>
-            <a href="/about">
+        <ExperienceCardStyle>
+            <a href="/experience">
                 <Card>
-                    About
-                    {/*<span styles={{float: 'right'}}>About</span>*/}
+                    Experience
                 </Card>
             </a>
-        </AboutCardStyle>
+        </ExperienceCardStyle>
     )
 }
+
+export default ExperienceCard;

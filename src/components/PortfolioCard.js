@@ -36,7 +36,7 @@ function PortfolioCard() {
         <ContactCardStyle>
             <a href="/portfolio">
                 <Card>
-                    Portfolio
+                    Projects
                 </Card>
             </a>
         </ContactCardStyle>            

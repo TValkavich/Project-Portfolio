@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import NoMatch from "./NoMatch";
 import Layout from "./components/Layout";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </Switch>
         </Router>
       </Layout>
+      <Footer />
     </React.Fragment>
   );
 }

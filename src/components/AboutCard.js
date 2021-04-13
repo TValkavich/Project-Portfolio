@@ -8,6 +8,7 @@ const AboutCardStyle = styled.div`
         color: black;
         margin-top: 10%;
         margin-bottom: 100px;
+        margin-left: 80%;
         padding: 10%;
         height: 60%;
         width: 60%;

@@ -7,7 +7,7 @@ const ExperienceCardStyle = styled.div`
     .card {
         color: black;
         margin-top: 15%;
-        padding: 10%;
+        padding: 8%;
         height: 60%;
         width: 60%;
         background: white;
@@ -30,8 +30,21 @@ const ExperienceCardStyle = styled.div`
 
     a:hover {
         text-decoration: none;
-      }
+    }
 
+    .mainContent {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .mainImage {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        max-width: 100%;
+        height: auto;
+        background-size: contain;
+    }
 `;
 
 function ExperienceCard() {
@@ -39,7 +52,9 @@ function ExperienceCard() {
         <ExperienceCardStyle>
             <a href="/experience">
                 <Card>
-                    Experience
+                    <p className="mainContent">I'm a Software Engineer</p> 
+                        <br/>
+                     See My Work Experience
                 </Card>
             </a>
         </ExperienceCardStyle>

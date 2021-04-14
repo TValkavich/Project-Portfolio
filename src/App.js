@@ -13,9 +13,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <React.Fragment>
-      <Navbar />
-      <Layout>
-        <Router>
+      <Router>
+        <Navbar />
+        <Layout>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/experience" component={Experience} />
@@ -24,9 +24,9 @@ function App() {
             <Route path="/about" component={About} />
             <Route component={NoMatch} />
           </Switch>
-        </Router>
-      </Layout>
-      <Footer />
+        </Layout>
+        <Footer />
+      </Router>
     </React.Fragment>
   );
 }

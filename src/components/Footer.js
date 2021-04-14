@@ -66,6 +66,8 @@ const FooterStyle = styled.div`
 
   .wrapper .button:hover .icon i{
     color: coral;
+    text-decoration: none;
+
   }
 
   .wrapper .button span{
@@ -91,7 +93,7 @@ const FooterStyle = styled.div`
   .wrapper .button:nth-child(4) span{
     color: #1ebdd6;
   }
-  
+
   .wrapper .button:nth-child(5) span{
     color: #1ebdd6;
   }
@@ -103,6 +105,10 @@ const FooterStyle = styled.div`
       background-color: #F5F5F5;
     }
 
+    .a {
+        text-decoration: none;
+    }
+
 `;
 
 function Footer() {
@@ -110,24 +116,26 @@ function Footer() {
         <div class="superWrapper">
             <FooterStyle>
                 <div class="wrapper"> 
-                    <div class="button">
+                    <a class="button" href="/" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faHome} /></div>
                         <span>Home</span>
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a class="button" href="/experience" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faBriefcase} /></div>
                         <span>Experience</span>
-                    </div>
-                    <div class="button">
+                    </a>
+                    <a class="button" href="/portfolio" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faFolder} /></div>
                         <span>Projects</span>
-                    </div><div class="button">
+                    </a>
+                    <a class="button" href="/contact" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faPhone} /></div>
                         <span>Contact</span>
-                    </div><div class="button">
+                    </a>
+                    <a class="button" href="/about" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faInfo} /></div>
                         <span>About</span>
-                    </div>
+                    </a>
                 </div>
         </FooterStyle>
         </div>

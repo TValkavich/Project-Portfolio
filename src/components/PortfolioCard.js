@@ -5,12 +5,12 @@ import styled from 'styled-components';
 const ContactCardStyle = styled.div`
 
     .card {
-        color: black;
+        color: #595959;
         margin-top: 10%;
         margin-bottom: 10%;
-        padding: 10%;
+        padding: 8%;
         height: 60%;
-        width: 60%;
+        width: 75%;
         background: white;
         transition: width 0.5s;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
@@ -29,6 +29,12 @@ const ContactCardStyle = styled.div`
             -1px -1px 30px rgba(0,0,0,0.2);
     }
 
+    .mainContent {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: Arial, serif;
+    }
+
 `;
 
 function PortfolioCard() {
@@ -36,7 +42,9 @@ function PortfolioCard() {
         <ContactCardStyle>
             <a href="/portfolio">
                 <Card>
-                    Projects
+                    <p className="mainContent">I Love Programming</p> 
+                        <br/>
+                    See My Side-Projects
                 </Card>
             </a>
         </ContactCardStyle>            

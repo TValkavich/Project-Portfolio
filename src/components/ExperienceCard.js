@@ -5,11 +5,11 @@ import styled from 'styled-components';
 const ExperienceCardStyle = styled.div`
 
     .card {
-        color: black;
+        color: #595959;
         margin-top: 15%;
         padding: 8%;
         height: 60%;
-        width: 60%;
+        width: 75%;
         background: white;
         transition: width 0.5s;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
@@ -23,7 +23,7 @@ const ExperienceCardStyle = styled.div`
         underline: false;
         background: #1ebdd6;
         width: 90%;
-        box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+        box-shadow: 2px 2px 5p x rgba(0,0,0,0.5),
             10px 10px 15px rgba(0,0,0,0.5),
             -1px -1px 30px rgba(0,0,0,0.2);
     }
@@ -35,16 +35,9 @@ const ExperienceCardStyle = styled.div`
     .mainContent {
         font-size: 22px;
         font-weight: bold;
+        font-family: Arial, serif;
     }
 
-    .mainImage {
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        max-width: 100%;
-        height: auto;
-        background-size: contain;
-    }
 `;
 
 function ExperienceCard() {

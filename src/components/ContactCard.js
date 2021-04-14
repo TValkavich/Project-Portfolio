@@ -4,11 +4,11 @@ import styled from 'styled-components';
 const ContactCardStyle = styled.div`
 
     .card {
-        color: black;
+        color: #595959;
         margin-top: 10%;
-        padding: 10%;
+        padding: 8%;
         height: 60%;
-        width: 60%;
+        width: 75%;
         background: white;
         transition: width 0.5s;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
@@ -29,6 +29,12 @@ const ContactCardStyle = styled.div`
         text-decoration: none;
       }
 
+    .mainContent {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: Arial, serif;
+    }
+
 `;
 
 function ContactCard() {
@@ -36,7 +42,9 @@ function ContactCard() {
         <ContactCardStyle>
             <a href="/contact">
                 <Card>
-                    Contact
+                    <p className="mainContent">Get In Touch</p> 
+                        <br/>
+                    Contact Me
                 </Card>
             </a>
         </ContactCardStyle>            

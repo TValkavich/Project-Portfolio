@@ -1,12 +1,10 @@
 import React from 'react';
-import * as ReactBootstrap from 'react-bootstrap';
 import Typewriter from 'typewriter-effect';
 import styled from 'styled-components';
 import ExperienceCard from "./components/ExperienceCard";
 import PortfolioCard from "./components/PortfolioCard";
 import AboutCard from './components/AboutCard';
 import ContactCard from './components/ContactCard';
-import Footer from './components/Footer';
 
 const TypewriterStyle = styled.div`
     color: #1ebdd6;

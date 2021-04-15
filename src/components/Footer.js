@@ -100,13 +100,16 @@ const FooterStyle = styled.div`
 
   .wrapper {
       display: flex;
-      padding: 80px;
+      padding: 100px;
+      margin-bottom: -70px;
       justify-content: center;
       background-color: #F5F5F5;
     }
 
-    .a {
-        text-decoration: none;
+    .test {
+      font-size: 14px;
+      text-align: center;
+      background-color: #F5F5F5;
     }
 
 `;
@@ -137,7 +140,8 @@ function Footer() {
                         <span>About</span>
                     </a>
                 </div>
-        </FooterStyle>
+                <div class="test">Made by Tyler Valkavich &copy; 2021</div>
+            </FooterStyle>
         </div>
     )
 }

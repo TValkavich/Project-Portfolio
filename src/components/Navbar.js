@@ -28,6 +28,8 @@ export default function NavigationBar() {
                 <Button variant="outline-info" href="/portfolio" style={{margin: "5px"}}>Projects</Button>
                 <Button variant="outline-info" href="/contact" style={{margin: '5px' }}>Contact</Button>
                 <Button variant="outline-info" href="/about" style={{margin: '5px' }}>About</Button>
+                <Button variant="outline-secondary" style={{margin: '5px' }}>Resume</Button>
+                <Button variant="outline-secondary" style={{margin: '5px' }}>GitHub</Button>
             </Nav>
         </NavStyles>
     )

@@ -23,7 +23,7 @@ const ExperienceCardStyle = styled.div`
         underline: false;
         background: #1ebdd6;
         width: 90%;
-        box-shadow: 2px 2px 5p x rgba(0,0,0,0.5),
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
             10px 10px 15px rgba(0,0,0,0.5),
             -1px -1px 30px rgba(0,0,0,0.2);
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Nav, Navbar} from 'react-bootstrap';
+import {Button, Nav} from 'react-bootstrap';
 import styled from 'styled-components';
 
 const NavStyles = styled.div`

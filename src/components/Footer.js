@@ -106,7 +106,7 @@ const FooterStyle = styled.div`
       background-color: #F5F5F5;
     }
 
-    .test {
+    .subtext {
       font-size: 14px;
       text-align: center;
       background-color: #F5F5F5;
@@ -140,7 +140,7 @@ function Footer() {
                         <span>About</span>
                     </a>
                 </div>
-                <div class="test">Made by Tyler Valkavich &copy; 2021</div>
+                <div class="subtext">Made by Tyler Valkavich &copy; 2021</div>
             </FooterStyle>
         </div>
     )

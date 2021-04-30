@@ -14,6 +14,7 @@ function App() {
   return (
     <React.Fragment>
       <Router>
+        <div class="container" style={{display: 'flex', flexDirection: 'column', minHeight: "100vh", minWidth: "100%", paddingLeft: 0, paddingRight: 0}}>
         <Navbar />
         <Layout>
           <Switch>
@@ -25,7 +26,10 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
         </Layout>
-        <Footer />
+        <div class="footer" style={{marginTop: "auto"}}>
+          <Footer />
+        </div>
+        </div>
       </Router>
     </React.Fragment>
   );

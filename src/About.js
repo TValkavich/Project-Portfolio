@@ -1,10 +1,22 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const MainHeaderStyle = styled.div`
+    color: #595959;
+    font-size: 70px;
+    display: inline-flex;
+    padding-top: 10%;
+    padding-bottom: .5%;    
+`;
 
 export default function About() {
     return (
-        <div>
-            <h1>This is the about page</h1>
-            <p>ABOUT PAGE</p>
-        </div>
+        <React.Fragment>
+            <MainHeaderStyle>
+                About Me
+            </MainHeaderStyle>
+            <hr style={{borderTop: "3px solid #bbb", paddingBottom: "15%"}}/>
+
+        </React.Fragment>
     )
 }

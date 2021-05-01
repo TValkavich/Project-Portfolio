@@ -3,7 +3,6 @@ import Typewriter from 'typewriter-effect';
 import styled from 'styled-components';
 import ExperienceCard from "./components/ExperienceCard";
 import PortfolioCard from "./components/PortfolioCard";
-import AboutCard from './components/AboutCard';
 import ContactCard from './components/ContactCard';
 
 const TypewriterStyle = styled.div`

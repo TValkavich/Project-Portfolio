@@ -38,7 +38,6 @@ function Home() {
             <ExperienceCard />
             <PortfolioCard />
             <ContactCard />
-            <AboutCard />
         </React.Fragment>
     )
 }

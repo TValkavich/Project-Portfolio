@@ -22,7 +22,6 @@ function App() {
             <Route path="/experience" component={Experience} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
-            <Route path="/about" component={About} />
             <Route component={NoMatch} />
           </Switch>
         </Layout>

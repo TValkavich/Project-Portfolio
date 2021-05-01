@@ -102,7 +102,7 @@ export default function Contact() {
             <MainHeaderStyle>
                 Contact Me
             </MainHeaderStyle>
-            <hr style={{borderTop: "3px solid #bbb", paddingBottom: "15%"}}/>
+            <hr style={{borderTop: "3px solid #bbb", paddingBottom: "10%"}}/>
             <ButtonStyle>
                 <div class="superWrapper">
                     <div class="buttonWrapper">

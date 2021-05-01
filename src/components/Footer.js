@@ -135,10 +135,6 @@ function Footer() {
                         <div class="icon"><FontAwesomeIcon icon={faPhone} /></div>
                         <span>Contact</span>
                     </a>
-                    <a class="button" href="/about" style={{color: 'black', textDecoration: 'none'}} >   
-                        <div class="icon"><FontAwesomeIcon icon={faInfo} /></div>
-                        <span>About</span>
-                    </a>
                 </div>
                 <div class="subtext">Made by Tyler Valkavich &copy; 2021</div>
             </FooterStyle>

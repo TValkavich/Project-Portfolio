@@ -14,6 +14,7 @@ const ContactCardStyle = styled.div`
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
             5px 5px 15px rgba(0,0,0,0.1),
             -1px -1px 10px rgba(0,0,0,0.2);
+        margin-bottom: 10%;
     }
 
     .card:hover {

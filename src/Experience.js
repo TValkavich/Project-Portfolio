@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import {Card} from 'react-bootstrap';
+import {Card, ListGroup} from 'react-bootstrap';
 import SitusAmc from './assests/situsAMC_logo.jpg';
 import MBMS from './assests/mbms_logo.png';
 import Ringer from './assests/ringer.png'
@@ -63,7 +63,15 @@ function Experience() {
                         <h4>SitusAMC - Software Developer</h4>
                         <img src={SitusAmc} alt="SitusAMC Logo"/>
                         <p style={{fontWeight: 'bold'}}>December 2020 - Present</p>
-                        <p style={{color: '#595959'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt neque ac maximus fermentum. Maecenas justo lectus, mollis quis cursus sit amet, ultrices eu ante. Duis non ultrices nisl, sed consectetur lacus. Fusce auctor sapien non ligula iaculis, vel posuere nisl suscipit. Maecenas ornare accumsan mi, a aliquet orci tempus eget. Aenean luctus ultricies quam sed imperdiet. Suspendisse venenatis sapien mauris, vel mattis ipsum vehicula vitae. Mauris ultrices posuere porta. Sed vitae tortor cursus, aliquam risus vel, eleifend diam. Aliquam maximus elit ut risus dapibus fringilla.
+                        <p style={{color: '#595959'}}>
+                            SitusAMC gave me insight into the true world of software development. They allowed me to further grow my skill set through working closely with great developers to build great products for the real estate finance industry. Some of my responsibilities and impact include:
+                            <ListGroup variant="flush" style={{margin: '10% 0 2% 0', color: '#595959'}}>
+                                    <ListGroup.Item>Used various programming languages and frameworks including but not limited to .NET, .NET Core, C#, JavaScript, T-SQL, AWS, and Azure</ListGroup.Item>
+                                    <ListGroup.Item>Participated in Agile software development methodologies including daily standups and sprint planning</ListGroup.Item>
+                                    <ListGroup.Item>Designed, developed and delivered both front-end and back-end solutions</ListGroup.Item>
+                                    <ListGroup.Item>Wrote technical specifications based on conceptual design and stated business requirements</ListGroup.Item>
+                                    <ListGroup.Item>Identified and evaluated new technologies for implementation within our front-end infastructure</ListGroup.Item>
+                                </ListGroup>
                         </p>
                     </div>
                 </Card>
@@ -72,7 +80,17 @@ function Experience() {
                         <h4>MBMS - Software Developer Intern</h4>
                         <img src={MBMS} alt="MBMS Logo"/>
                         <p style={{fontWeight: 'bold'}}>August 2019 - December 2020</p>
-                        <p style={{color: '#595959'}}> 
+                        <p style={{color: '#595959'}}>
+                            The beginning of my career. Here at MBMS, Inc, I was introduced to modern day software development practices and began to grow and build upon my skill set through gaining hands on experience while still remaining a student in school. A brief overview of my responsibilites and impact include:
+                            <ListGroup variant="flush" style={{margin: '10% 0 2% 0', color: '#595959'}}>
+                                <ListGroup.Item>Used Microsoft .NET Framework and supporting programming languages (i.e. Visual C#, JavaScript, T-SQL)</ListGroup.Item>
+                                <ListGroup.Item>Designed and deployed internal tooling for the company to auto-generate templates for our backend SQL files thereby streamlining the process of file creation as well as providing a basis for SQL coding standards</ListGroup.Item>
+                                <ListGroup.Item>Worked alongside our QA team to test, detect and eliminate any bugs or defects within our existing applications</ListGroup.Item>
+                                <ListGroup.Item>Worked within the defined Software Development Life Cycle process, coding standards and best practices of the company</ListGroup.Item>
+                                <ListGroup.Item>Supported, maintained, and documented software functionality.</ListGroup.Item>
+                                <ListGroup.Item>Understood and adhered to the company's risk and regulatory standards, policies and controls in accordance with the company's risk tolerance</ListGroup.Item>
+                                <ListGroup.Item>Served as technical expert on development projects, participated in full development life cycle including requirements analysis and design</ListGroup.Item>
+                            </ListGroup>
                         </p>
                     </div>
                 </Card>
@@ -87,7 +105,19 @@ function Experience() {
                         <h4>Ringer Construction - Carpenter</h4>
                         <img src={Ringer} alt="Ringer Construction Logo"/>
                         <p style={{fontWeight: 'bold'}}>December 2016 - August 2019</p>
-                        <p style={{color: '#595959'}}> This was my job all through college up until I began my career as a Software Engineer. I gained practical, hands on experience with the art of carpentry. I worked through many of the stages of the residential home building process including: framing, flooring, plumbing, electric, decking, siding, finish-work and of course demolition. My knowledge gained throughout the course of my employment at Ringer Construction manifested to me running my own crew of beginners to take on demolition and flooring projects. 
+                        <p style={{color: '#595959'}}>
+                            This was my job all through college up until I began my career as a Software Engineer. I gained practical, hands on experience with the art of carpentry. I worked through many of the stages of the residential home building process including: 
+                            <ListGroup variant="flush" style={{margin: '10% 0 2% 0', color: '#595959'}}>
+                                <ListGroup.Item>Framing - Worked alongside the framing crew on new construction projects or to add extensions onto homes</ListGroup.Item>
+                                <ListGroup.Item>Flooring - Performed numerous small jobs to install vinyl, laminate, tile and hardwood flooring</ListGroup.Item>
+                                <ListGroup.Item>Plumbing - Worked with the plumbing crew on both new and existing plumbing jobs </ListGroup.Item>
+                                <ListGroup.Item>Electric - Short stint with the electric team to install new ceiling lights in a commercial warehouse</ListGroup.Item>
+                                <ListGroup.Item>Decking - Spent a summer with the decking crew building brand new decks for clients or repairing older ones</ListGroup.Item>
+                                <ListGroup.Item>Siding - Installed both cedar shake and vinyl siding on numerous homes</ListGroup.Item>
+                                <ListGroup.Item>Finish Work - Learned trim work and installed floor, ceiling and door moldings in numerous homes </ListGroup.Item>
+                                <ListGroup.Item>Demolition - Destroyed and removed any pre-existing construction that was to be renovated</ListGroup.Item>
+                            </ListGroup>
+                        My knowledge gained throughout the course of my employment at Ringer Construction manifested to me running my own crew of novice carpenters to take on demolition and flooring projects. 
                         </p>
                     </div>
                 </Card>

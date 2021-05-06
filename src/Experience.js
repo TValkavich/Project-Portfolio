@@ -72,7 +72,7 @@ function Experience() {
                         <h4>MBMS - Software Developer Intern</h4>
                         <img src={MBMS} alt="MBMS Logo"/>
                         <p style={{fontWeight: 'bold'}}>August 2019 - December 2020</p>
-                        <p style={{color: '#595959'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt neque ac maximus fermentum. Maecenas justo lectus, mollis quis cursus sit amet, ultrices eu ante. Duis non ultrices nisl, sed consectetur lacus. Fusce auctor sapien non ligula iaculis, vel posuere nisl suscipit. Maecenas ornare accumsan mi, a aliquet orci tempus eget. Aenean luctus ultricies quam sed imperdiet. Suspendisse venenatis sapien mauris, vel mattis ipsum vehicula vitae. Mauris ultrices posuere porta. Sed vitae tortor cursus, aliquam risus vel, eleifend diam. Aliquam maximus elit ut risus dapibus fringilla.
+                        <p style={{color: '#595959'}}> 
                         </p>
                     </div>
                 </Card>
@@ -86,8 +86,8 @@ function Experience() {
                     <div class="wrapper" >
                         <h4>Ringer Construction - Carpenter</h4>
                         <img src={Ringer} alt="Ringer Construction Logo"/>
-                        <p style={{fontWeight: 'bold'}}>December 2017 - August 2019</p>
-                        <p style={{color: '#595959'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt neque ac maximus fermentum. Maecenas justo lectus, mollis quis cursus sit amet, ultrices eu ante. Duis non ultrices nisl, sed consectetur lacus. Fusce auctor sapien non ligula iaculis, vel posuere nisl suscipit. Maecenas ornare accumsan mi, a aliquet orci tempus eget. Aenean luctus ultricies quam sed imperdiet. Suspendisse venenatis sapien mauris, vel mattis ipsum vehicula vitae. Mauris ultrices posuere porta. Sed vitae tortor cursus, aliquam risus vel, eleifend diam. Aliquam maximus elit ut risus dapibus fringilla.
+                        <p style={{fontWeight: 'bold'}}>December 2016 - August 2019</p>
+                        <p style={{color: '#595959'}}> This was my job all through college up until I began my career as a Software Engineer. I gained practical, hands on experience with the art of carpentry. I worked through many of the stages of the residential home building process including: framing, flooring, plumbing, electric, decking, siding, finish-work and of course demolition. My knowledge gained throughout the course of my employment at Ringer Construction manifested to me running my own crew of beginners to take on demolition and flooring projects. 
                         </p>
                     </div>
                 </Card>

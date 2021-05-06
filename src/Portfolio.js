@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Card, Button} from 'react-bootstrap';
-import SitusAMC from './assests/situsAMC_greyScale.jpg';
+import SitusAMC from './assests/sitePicGreyScale.png';
 import {FaGithub} from 'react-icons/fa';
 
 const MainHeaderStyle = styled.div`
@@ -91,7 +91,7 @@ function Portfolio() {
                     <Card.Img variant="top" src={SitusAMC}/>
                     <Card.Title >Portfolio Site</Card.Title>
                     <Card.Text>
-                        This website! A clean, minimalist and responsive site built with ReactJS. I wanted to have a "homebase" so to speak for all of my past work experience and ongoing side projects and here it is.
+                        This website! A clean, minimalist and responsive site built with ReactJS. I wanted to have a "homebase" so to speak for all of my past work experience and ongoing side projects and here it
                     </Card.Text>
                     <div class="languagesWrapper">
                         <p>HTML5</p>
@@ -102,7 +102,7 @@ function Portfolio() {
                         <p>React Router</p>
                         <p>Styled-Components</p>
                     </div>
-                    <Button variant="info">
+                    <Button variant="info" target="_blank" rel="noopener noreferrer" href="https://github.com/TValkavich/Project-Portfolio" style={{width: '150px', margin: "2%"}}>
                         <FaGithub />
                         View Source
                     </Button>

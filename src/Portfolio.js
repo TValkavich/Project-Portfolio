@@ -72,21 +72,15 @@ function Portfolio() {
             </MainHeaderStyle>
             <hr style={{borderTop: "3px solid #bbb", paddingBottom: "15%"}}/>
             <CardStyle>
-                <Card>
+            <Card>
                     <Card.Img variant="top" src={SitusAMC}/>
-                    <Card.Title >Portfolio Site</Card.Title>
+                    <Card.Title >that shit on my laptop</Card.Title>
                     <Card.Text>Some quick example text to build on the card title and make up the bulk of
                         the card's content. Some quick example text to build on the card title and make up the bulk of
                         the card's content.
                     </Card.Text>
                     <div class="languagesWrapper">
-                        <p>HTML5</p>
-                        <p>CSS3</p>
-                        <p>JavaScript</p>
-                        <p>ReactJS</p>
-                        <p>React Bootstrap</p>
-                        <p>React Router</p>
-                        <p>Styled-Components</p>
+                        <p>C#</p>
                     </div>
                     <Button variant="info">
                         <FaGithub />
@@ -95,10 +89,9 @@ function Portfolio() {
                 </Card>
                 <Card>
                     <Card.Img variant="top" src={SitusAMC}/>
-                    <Card.Title >that shit on my laptop</Card.Title>
-                    <Card.Text>Some quick example text to build on the card title and make up the bulk of
-                        the card's content. Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                    <Card.Title >Portfolio Site</Card.Title>
+                    <Card.Text>
+                        This website! A clean, minimalist and responsive site built with ReactJS. I wanted to have a "homebase" so to speak for all of my past work experience and ongoing side projects and here it is.
                     </Card.Text>
                     <div class="languagesWrapper">
                         <p>HTML5</p>

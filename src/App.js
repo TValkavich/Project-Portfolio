@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <Layout>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/experience" component={Experience} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
+            <Route exact path="/Project-Portfolio/" component={Home} />
+            <Route path="/Project-Portfolio/experience" component={Experience} />
+            <Route path="/Project-Portfolio/portfolio" component={Portfolio} />
+            <Route path="/Project-Portfolio/contact" component={Contact} />
             <Route component={NoMatch} />
           </Switch>
         </Layout>

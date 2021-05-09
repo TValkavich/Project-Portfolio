@@ -41,7 +41,7 @@ const ContactCardStyle = styled.div`
 function ContactCard() {
     return (
         <ContactCardStyle>
-            <a href="/contact">
+            <a href="/Project-Portfolio/contact">
                 <Card>
                     <p className="mainContent">Get In Touch</p> 
                         <br/>

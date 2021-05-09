@@ -118,19 +118,19 @@ function Footer() {
         <div class="superWrapper">
             <FooterStyle>
                 <div class="wrapper"> 
-                    <a class="button" href="/" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" href="/Project-Portfolio/" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faHome} /></div>
                         <span>Home</span>
                     </a>
-                    <a class="button" href="/experience" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" href="/Project-Portfolio/experience" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faBriefcase} /></div>
                         <span>Experience</span>
                     </a>
-                    <a class="button" href="/portfolio" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" href="/Project-Portfolio/portfolio" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faFolder} /></div>
                         <span>Projects</span>
                     </a>
-                    <a class="button" href="/contact" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" href="/Project-Portfolio/contact" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faPhone} /></div>
                         <span>Contact</span>
                     </a>

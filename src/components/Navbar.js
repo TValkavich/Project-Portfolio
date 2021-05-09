@@ -24,10 +24,10 @@ export default function NavigationBar() {
     return (
         <NavStyles>
             <Nav className="justify-content-center">
-                <Button variant="outline-info" href="/" style={{margin: '5px' }}>Home</Button>
-                <Button variant="outline-info" href="/experience" style={{margin: "5px"}}>Experience</Button>
-                <Button variant="outline-info" href="/portfolio" style={{margin: "5px"}}>Projects</Button>
-                <Button variant="outline-info" href="/contact" style={{margin: '5px' }}>Contact</Button>
+                <Button variant="outline-info" href="/Project-Portfolio/" style={{margin: '5px' }}>Home</Button>
+                <Button variant="outline-info" href="/Project-Portfolio/experience" style={{margin: "5px"}}>Experience</Button>
+                <Button variant="outline-info" href="/Project-Portfolio/portfolio" style={{margin: "5px"}}>Projects</Button>
+                <Button variant="outline-info" href="/Project-Portfolio/contact" style={{margin: '5px' }}>Contact</Button>
                 <Button variant="outline-secondary" href={Resume} target="_blank" rel="noopener noreferrer" style={{margin: '5px' }}>Resume</Button>
                 <Button variant="outline-secondary" target="_blank" rel="noopener noreferrer" href="https://github.com/TValkavich" style={{margin: '5px' }}>GitHub</Button>
             </Nav>

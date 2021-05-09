@@ -43,7 +43,7 @@ const ExperienceCardStyle = styled.div`
 function ExperienceCard() {
     return (
         <ExperienceCardStyle>
-            <a href="/experience">
+            <a href="/Project-Portfolio/experience">
                 <Card>
                     <p className="mainContent">I'm a Software Engineer</p> 
                         <br/>

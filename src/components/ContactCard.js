@@ -1,5 +1,6 @@
 import {Card} from 'react-bootstrap';
 import styled from 'styled-components';
+import {Link} from 'react-scroll';
 
 const ContactCardStyle = styled.div`
 
@@ -24,6 +25,7 @@ const ContactCardStyle = styled.div`
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
             10px 10px 15px rgba(0,0,0,0.5),
             -1px -1px 30px rgba(0,0,0,0.2);
+        cursor: pointer;
     }
 
     a:hover {
@@ -41,13 +43,15 @@ const ContactCardStyle = styled.div`
 function ContactCard() {
     return (
         <ContactCardStyle>
-            <a href="/Project-Portfolio/contact">
-                <Card>
-                    <p className="mainContent">Get In Touch</p> 
-                        <br/>
-                    Contact Me
-                </Card>
-            </a>
+            <Link to="contact" spy={true} smooth={true}>  
+                <a>
+                    <Card>
+                        <p className="mainContent">Get In Touch</p> 
+                            <br/>
+                        Contact Me
+                    </Card>
+                </a>
+            </Link>
         </ContactCardStyle>            
     )
 }

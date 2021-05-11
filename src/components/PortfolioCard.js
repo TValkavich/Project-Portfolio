@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 import styled from 'styled-components';
+import {Link} from 'react-scroll';
 
 const ContactCardStyle = styled.div`
 
@@ -27,6 +28,7 @@ const ContactCardStyle = styled.div`
         box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
             10px 10px 15px rgba(0,0,0,0.5),
             -1px -1px 30px rgba(0,0,0,0.2);
+        cursor: pointer;
     }
 
     .mainContent {
@@ -40,13 +42,15 @@ const ContactCardStyle = styled.div`
 function PortfolioCard() {
     return (
         <ContactCardStyle>
-            <a href="/Project-Portfolio/portfolio">
-                <Card>
-                    <p className="mainContent">I Love Programming</p> 
-                        <br/>
-                    See My Side-Projects
-                </Card>
-            </a>
+            <Link to="projects" spy={true} smooth={true}>  
+                <a>
+                    <Card>
+                        <p className="mainContent">I Love Programming</p> 
+                            <br/>
+                        See My Side-Projects
+                    </Card>
+                </a>
+            </Link>
         </ContactCardStyle>            
     )
 }

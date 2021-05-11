@@ -9,7 +9,7 @@ const MainHeaderStyle = styled.div`
     color: #595959;
     font-size: 70px;
     display: inline-flex;
-    padding-top: 10%;
+    padding-top: 2%;
     padding-bottom: .5%;    
 `;
 
@@ -99,7 +99,7 @@ const ButtonStyle = styled.div`
 export default function Contact() {
     return (
         <React.Fragment>
-            <MainHeaderStyle>
+            <MainHeaderStyle id="contact">
                 Contact Me
             </MainHeaderStyle>
             <hr style={{borderTop: "3px solid #bbb", paddingBottom: "10%"}}/>

@@ -5,6 +5,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faFolder } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-scroll';
 
 
 const FooterStyle = styled.div`
@@ -118,21 +119,29 @@ function Footer() {
         <div class="superWrapper">
             <FooterStyle>
                 <div class="wrapper"> 
-                    <a class="button" href="/Project-Portfolio/" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >
+                      <Link to="home" spy={true} smooth={true}>  
                         <div class="icon"><FontAwesomeIcon icon={faHome} /></div>
                         <span>Home</span>
+                      </Link>
                     </a>
-                    <a class="button" href="/Project-Portfolio/experience" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >   
+                      <Link to="experience" spy={true} smooth={true}>    
                         <div class="icon"><FontAwesomeIcon icon={faBriefcase} /></div>
                         <span>Experience</span>
+                      </Link>
                     </a>
-                    <a class="button" href="/Project-Portfolio/portfolio" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >   
+                      <Link to="projects" spy={true} smooth={true}>  
                         <div class="icon"><FontAwesomeIcon icon={faFolder} /></div>
                         <span>Projects</span>
+                      </Link>
                     </a>
-                    <a class="button" href="/Project-Portfolio/contact" style={{color: 'black', textDecoration: 'none'}} >   
+                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >   
+                      <Link to="contact" spy={true} smooth={true}>  
                         <div class="icon"><FontAwesomeIcon icon={faPhone} /></div>
                         <span>Contact</span>
+                      </Link>
                     </a>
                 </div>
                 <div class="subtext">Made by Tyler Valkavich &copy; 2021</div>

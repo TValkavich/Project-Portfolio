@@ -10,7 +10,7 @@ const MainHeaderStyle = styled.div`
     color: #595959;
     font-size: 70px;
     display: inline-flex;
-    padding-top: 10%;
+    padding-top: 2%;
     padding-bottom: .5%;    
 `;
 
@@ -53,13 +53,13 @@ const CardStyles = styled.div`
 function Experience() {
     return (
         <React.Fragment>
-            <MainHeaderStyle>
+            <MainHeaderStyle id="experience">
                 Work Experience
             </MainHeaderStyle>
             <hr style={{borderTop: "3px solid #bbb", paddingBottom: "15%"}}/>
             <CardStyles>
                 <Card>
-                    <div class="wrapper" >
+                    <div class="wrapper">
                         <h4>SitusAMC - Software Developer</h4>
                         <img src={SitusAmc} alt="SitusAMC Logo"/>
                         <p style={{fontWeight: 'bold'}}>December 2020 - Present</p>

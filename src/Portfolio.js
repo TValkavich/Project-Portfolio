@@ -8,7 +8,7 @@ const MainHeaderStyle = styled.div`
     color: #595959;
     font-size: 70px;
     display: inline-flex;
-    padding-top: 10%;
+    padding-top: 2%;
     padding-bottom: .5%;    
 `;
 
@@ -67,7 +67,7 @@ const CardStyle = styled.div`
 function Portfolio() {
     return (
         <React.Fragment>
-            <MainHeaderStyle>
+            <MainHeaderStyle id="projects">
                 Projects
             </MainHeaderStyle>
             <hr style={{borderTop: "3px solid #bbb", paddingBottom: "15%"}}/>

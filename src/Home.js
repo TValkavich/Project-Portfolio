@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import ExperienceCard from "./components/ExperienceCard";
 import PortfolioCard from "./components/PortfolioCard";
 import ContactCard from './components/ContactCard';
+import Experience from './Experience';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 const TypewriterStyle = styled.div`
     color: #1ebdd6;
@@ -21,7 +24,7 @@ const WelcomeMessage = styled.div`
 function Home() {
     return (
         <React.Fragment>
-            <TypewriterStyle>
+            <TypewriterStyle id="home">
                 &gt;
                 <Typewriter
                     options={{
@@ -37,6 +40,9 @@ function Home() {
             <ExperienceCard />
             <PortfolioCard />
             <ContactCard />
+            <Experience />
+            <Portfolio />
+            <Contact />
         </React.Fragment>
     )
 }

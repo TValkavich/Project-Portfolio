@@ -18,10 +18,6 @@ function App() {
         <Layout>
           <Switch>
             <Route exact path="/Project-Portfolio" component={Home} />
-            <Route path="/Project-Portfolio/experience" component={Experience} />
-            <Route path="/Project-Portfolio/portfolio" component={Portfolio} />
-            <Route path="/Project-Portfolio/contact" component={Contact} />
-            <Route component={NoMatch} />
           </Switch>
         </Layout>
         <div class="footer" style={{marginTop: "auto"}}>

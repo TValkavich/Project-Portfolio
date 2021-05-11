@@ -1,10 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from "./Home";
-import Experience from "./Experience";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import NoMatch from "./NoMatch";
 import Layout from "./components/Layout";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

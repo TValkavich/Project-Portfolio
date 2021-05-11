@@ -118,31 +118,31 @@ function Footer() {
     return (
         <div class="superWrapper">
             <FooterStyle>
-                <div class="wrapper"> 
-                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >
-                      <Link to="home" spy={true} smooth={true}>  
+                <div class="wrapper">
+                    <Link to="home" spy={true} smooth={true}>   
+                      <div class="button" style={{color: 'black', textDecoration: 'none'}} >
                         <div class="icon"><FontAwesomeIcon icon={faHome} /></div>
                         <span>Home</span>
-                      </Link>
-                    </a>
-                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >   
-                      <Link to="experience" spy={true} smooth={true}>    
+                      </div>
+                    </Link>
+                    <Link to="experience" spy={true} smooth={true}>    
+                      <div class="button" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faBriefcase} /></div>
-                        <span>Experience</span>
-                      </Link>
-                    </a>
-                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >   
-                      <Link to="projects" spy={true} smooth={true}>  
+                        <span>Experience</span> 
+                      </div>
+                    </Link>
+                    <Link to="projects" spy={true} smooth={true}>  
+                      <div class="button" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faFolder} /></div>
                         <span>Projects</span>
-                      </Link>
-                    </a>
-                    <a class="button" style={{color: 'black', textDecoration: 'none'}} >   
-                      <Link to="contact" spy={true} smooth={true}>  
+                      </div>
+                    </Link>
+                    <Link to="contact" spy={true} smooth={true}>  
+                      <div class="button" style={{color: 'black', textDecoration: 'none'}} >   
                         <div class="icon"><FontAwesomeIcon icon={faPhone} /></div>
                         <span>Contact</span>
-                      </Link>
-                    </a>
+                      </div>
+                    </Link>
                 </div>
                 <div class="subtext">Made by Tyler Valkavich &copy; 2021</div>
             </FooterStyle>

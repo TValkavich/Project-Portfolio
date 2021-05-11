@@ -25,10 +25,10 @@ export default function NavigationBar() {
     return (
         <NavStyles>
             <Nav className="justify-content-center">
-                <Button variant="outline-info" style={{margin: '5px' }}><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></Button>
-                <Button variant="outline-info" style={{margin: "5px"}}><Link to="experience" spy={true} smooth={true}>Experience</Link></Button>
-                <Button variant="outline-info" style={{margin: "5px"}}><Link to="projects" spy={true} smooth={true}>Projects</Link></Button>
-                <Button variant="outline-info" style={{margin: '5px' }}><Link to="contact" spy={true} smooth={true}>Contact</Link></Button>
+                <Link activeClass="active" to="home" spy={true} smooth={true}><Button variant="outline-info" style={{margin: '5px' }}>Home</Button></Link>
+                <Link to="experience" spy={true} smooth={true}><Button variant="outline-info" style={{margin: "5px"}}>Experience</Button></Link>
+                <Link to="projects" spy={true} smooth={true}><Button variant="outline-info" style={{margin: '5px' }}>Projects</Button></Link>
+                <Link to="contact" spy={true} smooth={true}><Button variant="outline-info" style={{margin: '5px' }}>Contact</Button></Link>
                 <Button variant="outline-secondary" href={Resume} target="_blank" rel="noopener noreferrer" style={{margin: '5px' }}>Resume</Button>
                 <Button variant="outline-secondary" target="_blank" rel="noopener noreferrer" href="https://github.com/TValkavich" style={{margin: '5px' }}>GitHub</Button>
             </Nav>
